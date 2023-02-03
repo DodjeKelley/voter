@@ -5,6 +5,7 @@ import CommentApp from "./CommentApp.jsx";
 // import Cards from "./Cards.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Col, Row } from "react-bootstrap";
+import NumGen from "./NumGen";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </Col>
           <Col>
             <CommentApp />
+            <NumGen />
           </Col>
         </Row>
       </Container>
